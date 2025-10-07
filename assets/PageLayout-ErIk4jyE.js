@@ -1,0 +1,1 @@
+import{j as s}from"./index-mT-WyXZ5.js";function c({children:a,className:e=""}){return s.jsxs("div",{className:`${e}`,children:[s.jsx("div",{className:"h-16"}),s.jsx("div",{className:"min-h-[calc(100vh-128px)]",children:a}),s.jsx("div",{className:"h-16"})]})}export{c as P};

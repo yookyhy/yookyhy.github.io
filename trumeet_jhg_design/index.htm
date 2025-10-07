@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <title>Trumeet</title>
+  </head>
+
+  <body>
+  
+  <header id="logo">
+    <h1>
+      <a href="#" class="flex_center"><img src="img/bi.png"></a>
+    </h1>
+  </header>
+
+  <main role="main">
+    <div class="flex_center CatchPhrase">
+      <h2>당신의 시간은 얼마입니까?</h2>
+    </div>
+
+    <div class="flex_center">
+      <form method="post" class="loginForm">
+        <div class="FormBox">
+          <label for="name"></label>
+          <input type="text" id="name" placeholder="" required minlength="2" maxlength="8">
+        </div>
+        <div class="FormBox">
+          <label for="pw"></label>
+          <input type="password" id="pw" placeholder="" required minlength="6" maxlength="12">
+        </div>
+
+        <a href="#">
+          <div class="loginBtn flex_center">
+            <button type="submit">로그인</button>
+          </div>
+        </a>
+        <a href="#">
+          <div class="signBtn flex_center">
+            <button type="submit">회원가입</button>
+          </div>
+        </a>
+        <p>또는</p>
+        <a href="#">
+          <div class="AsignBtn flex_center">
+            <img src="img/google.png" />
+            <button type="submit">Google계정으로 로그인</button>
+          </div>
+        </a>
+      </form>
+    </div>
+
+    <div class="findBtn">
+      <ul class="flex_start">
+        <li><a href="#">아이디 찾기</a></li>
+        <li><a href="#">비밀번호 찾기</a></li>
+      </ul>
+    </div> 
+  </main>
+  
+  <footer>
+  </footer>
+  
+  </body>
+  
+</html>
